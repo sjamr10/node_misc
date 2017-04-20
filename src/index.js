@@ -1,5 +1,5 @@
 // import Module3 from './module3';
-import * as ydkjs1 from './ydkjs1';
+import * as ydkjs2 from './ydkjs2';
 
 
 //Module3.method4();
