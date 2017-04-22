@@ -1,7 +1,6 @@
 var a = "hello world";
 var b = 3.14159;
 
-
 console.log(a.length);  // 11
 console.log(a.toUpperCase());		// "HELLO WORLD"
 console.log(b.toFixed(4));			// "3.1416
@@ -29,3 +28,23 @@ var b = 42;
 
 console.log(a == b);			// true
 console.log(a === b);		// false
+
+var a = 2;
+
+switch (a) {
+	case 2:
+	case 10:
+		// some cool stuff
+    console.log(`a: ${a}`);
+		break;
+	case 42:
+		// other stuff
+		break;
+	default:
+		// fallback
+}
+
+a = 42;
+
+var b = (a > 41) ? "hello" : "world";
+console.log(b);
